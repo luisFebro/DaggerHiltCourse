@@ -13,7 +13,7 @@ import javax.inject.Singleton
 abstract class RepositoryModule {
 
     // preferable way to inject interfaces than equivalant provides - less code
-    // ref: https://youtu.be/bbMsuI2p1DQ?t=1695s
+    // exp: https://youtu.be/bbMsuI2p1DQ?t=1695s
     @Binds
     @Singleton
     abstract fun bindMyRepository(
